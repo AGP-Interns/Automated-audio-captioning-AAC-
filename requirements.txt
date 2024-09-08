@@ -1,0 +1,5 @@
+transformers
+torchaudio
+numpy
+tensorflow
+tensorflow_hub
