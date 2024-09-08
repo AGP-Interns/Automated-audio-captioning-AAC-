@@ -50,11 +50,28 @@ This script processes audio files to generate textual captions and classify back
 2. **Run the Script**:
    Execute the script to process the audio file and obtain the results.
 
-## Error Handling
 
-- **Model Loading Errors**:
-  If there is an error loading the models or processors, the script will print an error message and raise an exception.
 
-- **Audio Processing Errors**:
-  Errors during audio loading, resampling, or processing will also be caught and reported.
+
+## **How to Use**
+
+### **Download Models:**
+        *Use the instructions above to load the models.*
+        *Ensure that yamnet_class_map.csv is placed in the correct directory*
+
+ **Run the Code:**
+        *Set the path to your audio file in the input_audio variable.*
+        *Execute the script to process the audio file and obtain the results.*
+
+### **Troubleshooting**
+
+**Model Loading Errors:**
+        *Ensure you have an active internet connection and access to the online models.*
+        *Check for compatibility between library versions.*
+
+    **Audio Processing Errors:**
+       *Verify that the audio file is correct and in a supported format.*
+       *Ensure that all required libraries are installed properly.*
+
+*With this information, you should be able to download the models and use them in your project. If you have any questions or issues, feel free to ask for help.&
 
